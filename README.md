@@ -1,1 +1,1 @@
-# mlb-analytics
+This is a data analytics project focused on learning the basics of data science. I will be using data from previous MLB seasons for visualization and some simple statistics.
