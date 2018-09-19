@@ -11,12 +11,12 @@ red_sox_wins = pd.DataFrame([red_sox.Year, red_sox.W])
 red_sox_wins = red_sox_wins.transpose()
 
 # Create a bar graph of the Red Sox data
-# red_sox_wins_plot = plt.bar(red_sox_wins.Year, red_sox_wins.W, width=.25)
-# plt.title("Red Sox Wins by Year")
-# plt.xlabel("Year")
-# plt.ylabel("Number of Wins")
-# plt.xlim(xmin=min(red_sox_wins.Year))
-# plt.show()
+red_sox_wins_plot = plt.bar(red_sox_wins.Year, red_sox_wins.W, width=.25)
+plt.title("Red Sox Wins by Year")
+plt.xlabel("Year")
+plt.ylabel("Number of Wins")
+plt.xlim(xmin=min(red_sox_wins.Year))
+plt.show()
 
 # Plot teams by mean wins
 unique_teams = file.Tm.unique()
